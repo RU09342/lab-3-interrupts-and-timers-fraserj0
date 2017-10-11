@@ -1,0 +1,290 @@
+
+**** Build of configuration Debug for project MSP430FR6989TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../TimerABlink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430FR6989/MSP430FR6989TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="TimerABlink.d"  "../TimerABlink.c"
+'Finished building: ../TimerABlink.c'
+' '
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430FR6989/MSP430FR6989TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430FR6989/MSP430FR6989TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 9: warning #225-D: function "ButtonInterrupt" declared implicitly
+'Finished building: ../main.c'
+' '
+'Building file: ../ButtonInterrupt.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430FR6989/MSP430FR6989TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="ButtonInterrupt.d"  "../ButtonInterrupt.c"
+"../ButtonInterrupt.c", line 20: warning #994-D: missing return statement at end of non-void function "ButtonInterrupt"
+"../ButtonInterrupt.c", line 32: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonInterrupt.c", line 32: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonInterrupt.c'
+' '
+'Building target: MSP430FR6989TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"MSP430FR6989TimersAndInterrupts.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/FR59xx" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430FR6989TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "MSP430FR6989TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10420-D: For FRAM devices, at start up, the GPIO power-on default high-impedance mode needs to be disabled to activate previously configured port settings. This can be done by clearing the LOCKLPM5 bit in PM5CTL0 register.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430FR6989TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430FR6989TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonInterrupt.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430FR6989/MSP430FR6989TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="ButtonInterrupt.d"  "../ButtonInterrupt.c"
+"../ButtonInterrupt.c", line 18: warning #994-D: missing return statement at end of non-void function "ButtonInterrupt"
+"../ButtonInterrupt.c", line 29: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonInterrupt.c", line 29: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonInterrupt.c'
+' '
+'Building target: MSP430FR6989TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"MSP430FR6989TimersAndInterrupts.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/FR59xx" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430FR6989TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "MSP430FR6989TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10420-D: For FRAM devices, at start up, the GPIO power-on default high-impedance mode needs to be disabled to activate previously configured port settings. This can be done by clearing the LOCKLPM5 bit in PM5CTL0 register.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430FR6989TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430FR6989TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonInterrupt.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430FR6989/MSP430FR6989TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="ButtonInterrupt.d"  "../ButtonInterrupt.c"
+"../ButtonInterrupt.c", line 18: warning #994-D: missing return statement at end of non-void function "ButtonInterrupt"
+"../ButtonInterrupt.c", line 29: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonInterrupt.c", line 29: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonInterrupt.c'
+' '
+'Building target: MSP430FR6989TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"MSP430FR6989TimersAndInterrupts.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/FR59xx" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430FR6989TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "MSP430FR6989TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+warning #10420-D: For FRAM devices, at start up, the GPIO power-on default high-impedance mode needs to be disabled to activate previously configured port settings. This can be done by clearing the LOCKLPM5 bit in PM5CTL0 register.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430FR6989TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430FR6989TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonInterrupt.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430FR6989/MSP430FR6989TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="ButtonInterrupt.d"  "../ButtonInterrupt.c"
+"../ButtonInterrupt.c", line 18: warning #994-D: missing return statement at end of non-void function "ButtonInterrupt"
+"../ButtonInterrupt.c", line 29: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonInterrupt.c", line 29: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonInterrupt.c'
+' '
+'Building target: MSP430FR6989TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"MSP430FR6989TimersAndInterrupts.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/FR59xx" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430FR6989TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "MSP430FR6989TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10420-D: For FRAM devices, at start up, the GPIO power-on default high-impedance mode needs to be disabled to activate previously configured port settings. This can be done by clearing the LOCKLPM5 bit in PM5CTL0 register.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430FR6989TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430FR6989TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonInterrupt.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430FR6989/MSP430FR6989TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="ButtonInterrupt.d"  "../ButtonInterrupt.c"
+"../ButtonInterrupt.c", line 19: warning #994-D: missing return statement at end of non-void function "ButtonInterrupt"
+"../ButtonInterrupt.c", line 30: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonInterrupt.c", line 30: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonInterrupt.c'
+' '
+'Building target: MSP430FR6989TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"MSP430FR6989TimersAndInterrupts.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/FR59xx" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430FR6989TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "MSP430FR6989TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430FR6989TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430FR6989TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonInterrupt.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430FR6989/MSP430FR6989TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="ButtonInterrupt.d"  "../ButtonInterrupt.c"
+"../ButtonInterrupt.c", line 23: warning #994-D: missing return statement at end of non-void function "ButtonInterrupt"
+"../ButtonInterrupt.c", line 35: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonInterrupt.c", line 35: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonInterrupt.c'
+' '
+'Building target: MSP430FR6989TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"MSP430FR6989TimersAndInterrupts.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/FR59xx" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430FR6989TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "MSP430FR6989TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430FR6989TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430FR6989TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../TimerABlink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430FR6989/MSP430FR6989TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="TimerABlink.d"  "../TimerABlink.c"
+
+>> Compilation failure
+subdir_rules.mk:23: recipe for target 'TimerABlink.obj' failed
+"../TimerABlink.c", line 12: error #20: identifier "CCTL1" is undefined
+"../TimerABlink.c", line 13: error #20: identifier "CCTL2" is undefined
+"../TimerABlink.c", line 14: error #20: identifier "CCR1" is undefined
+"../TimerABlink.c", line 15: error #20: identifier "CCR2" is undefined
+"../TimerABlink.c", line 16: error #20: identifier "TACTL" is undefined
+"../TimerABlink.c", line 19: warning #994-D: missing return statement at end of non-void function "TimerABlink"
+"../TimerABlink.c", line 32: error #20: identifier "CCR1" is undefined
+"../TimerABlink.c", line 38: error #20: identifier "CCR2" is undefined
+7 errors detected in the compilation of "../TimerABlink.c".
+gmake: *** [TimerABlink.obj] Error 1
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430FR6989/MSP430FR6989TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 10: warning #225-D: function "TimerABlink" declared implicitly
+'Finished building: ../main.c'
+' '
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430FR6989TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../TimerABlink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430FR6989/MSP430FR6989TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="TimerABlink.d"  "../TimerABlink.c"
+"../TimerABlink.c", line 19: warning #994-D: missing return statement at end of non-void function "TimerABlink"
+'Finished building: ../TimerABlink.c'
+' '
+'Building target: MSP430FR6989TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"MSP430FR6989TimersAndInterrupts.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/FR59xx" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430FR6989TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "MSP430FR6989TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430FR6989TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430FR6989TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430FR6989/MSP430FR6989TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 11: warning #225-D: function "ButtonBasedDelay" declared implicitly
+'Finished building: ../main.c'
+' '
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430FR6989/MSP430FR6989TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 26: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 47: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonBasedDelay.c", line 47: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430FR6989TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"MSP430FR6989TimersAndInterrupts.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/FR59xx" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430FR6989TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "MSP430FR6989TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+error #10056: symbol "__TI_int37" redefined: first defined in "./ButtonBasedDelay.obj"; redefined in "./ButtonInterrupt.obj"
+error #10056: symbol "Port_1" redefined: first defined in "./ButtonBasedDelay.obj"; redefined in "./ButtonInterrupt.obj"
+error #10056: symbol "Timer_A" redefined: first defined in "./ButtonBasedDelay.obj"; redefined in "./TimerABlink.obj"
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+error #10010: errors encountered during linking; "MSP430FR6989TimersAndInterrupts.out" not built
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+
+>> Compilation failure
+makefile:146: recipe for target 'MSP430FR6989TimersAndInterrupts.out' failed
+gmake[1]: *** [MSP430FR6989TimersAndInterrupts.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430FR6989TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../TimerABlink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430FR6989/MSP430FR6989TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="TimerABlink.d"  "../TimerABlink.c"
+"../TimerABlink.c", line 19: warning #994-D: missing return statement at end of non-void function "TimerABlink"
+'Finished building: ../TimerABlink.c'
+' '
+'Building file: ../ButtonInterrupt.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430FR6989/MSP430FR6989TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="ButtonInterrupt.d"  "../ButtonInterrupt.c"
+"../ButtonInterrupt.c", line 23: warning #994-D: missing return statement at end of non-void function "ButtonInterrupt"
+'Finished building: ../ButtonInterrupt.c'
+' '
+'Building target: MSP430FR6989TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"MSP430FR6989TimersAndInterrupts.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/FR59xx" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430FR6989TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "MSP430FR6989TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430FR6989TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****

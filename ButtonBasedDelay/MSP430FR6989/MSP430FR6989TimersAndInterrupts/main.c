@@ -1,0 +1,12 @@
+#include <msp430.h> 
+
+
+/**
+ * main.c
+ */
+int main(void)
+{
+    //ButtonInterrupt();
+    //TimerABlink();
+    ButtonBasedDelay();
+}

@@ -1,0 +1,29 @@
+
+**** Build of configuration Debug for project MSP430FR6989TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../TimerABlink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430FR6989/MSP430FR6989TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="TimerABlink.d"  "../TimerABlink.c"
+"../TimerABlink.c", line 19: warning #994-D: missing return statement at end of non-void function "TimerABlink"
+'Finished building: ../TimerABlink.c'
+' '
+'Building file: ../ButtonInterrupt.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430FR6989/MSP430FR6989TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="ButtonInterrupt.d"  "../ButtonInterrupt.c"
+"../ButtonInterrupt.c", line 23: warning #994-D: missing return statement at end of non-void function "ButtonInterrupt"
+'Finished building: ../ButtonInterrupt.c'
+' '
+'Building target: MSP430FR6989TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"MSP430FR6989TimersAndInterrupts.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/FR59xx" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430FR6989TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "MSP430FR6989TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430fr6989.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430FR6989TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****

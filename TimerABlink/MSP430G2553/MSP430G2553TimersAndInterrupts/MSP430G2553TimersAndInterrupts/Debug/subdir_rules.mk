@@ -1,0 +1,36 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Each subdirectory must supply rules for building sources it contributes
+ButtonBasedDelay.obj: ../ButtonBasedDelay.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler'
+	"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+ButtonInterrupt.obj: ../ButtonInterrupt.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler'
+	"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonInterrupt.d" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+TimerABlink.obj: ../TimerABlink.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler'
+	"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="TimerABlink.d" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+main.obj: ../main.c $(GEN_OPTS) | $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler'
+	"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

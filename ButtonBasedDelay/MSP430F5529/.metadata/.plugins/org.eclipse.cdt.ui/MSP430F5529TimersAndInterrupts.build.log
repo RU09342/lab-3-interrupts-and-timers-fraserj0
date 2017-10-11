@@ -1,0 +1,24 @@
+
+**** Build of configuration Debug for project MSP430F5529TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430F5529/MSP430F5529TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 25: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 46: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonBasedDelay.c", line 46: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430F5529TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"MSP430F5529TimersAndInterrupts.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430F5529TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "MSP430F5529TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430F5529TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****

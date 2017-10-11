@@ -1,0 +1,563 @@
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 21: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 26: warning #179-D: variable "i" was declared but never referenced
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 21: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 40: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonBasedDelay.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 21: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 40: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonBasedDelay.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 21: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 40: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonBasedDelay.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 21: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 40: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonBasedDelay.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 21: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 40: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonBasedDelay.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonInterrupt.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonInterrupt.d"  "../ButtonInterrupt.c"
+"../ButtonInterrupt.c", line 18: warning #994-D: missing return statement at end of non-void function "ButtonInterrupt"
+'Finished building: ../ButtonInterrupt.c'
+' '
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 21: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 40: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonBasedDelay.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'MSP430G2553TimersAndInterrupts.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 21: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 26: warning #179-D: variable "i" was declared but never referenced
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 22: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 27: warning #179-D: variable "i" was declared but never referenced
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'MSP430G2553TimersAndInterrupts.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 23: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 28: warning #179-D: variable "i" was declared but never referenced
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'MSP430G2553TimersAndInterrupts.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 22: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 27: warning #179-D: variable "i" was declared but never referenced
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'ButtonBasedDelay.obj' failed
+"../ButtonBasedDelay.c", line 22: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 34: error #66: expected a ";"
+"../ButtonBasedDelay.c", line 42: warning #12-D: parsing restarts here after previous syntax error
+"../ButtonBasedDelay.c", line 27: warning #179-D: variable "i" was declared but never referenced
+"../ButtonBasedDelay.c", line 28: warning #179-D: variable "time" was declared but never referenced
+"../ButtonBasedDelay.c", line 28: remark #1535-D: (ULP 8.1) variable "time" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+1 error detected in the compilation of "../ButtonBasedDelay.c".
+gmake: *** [ButtonBasedDelay.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 22: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 43: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonBasedDelay.c", line 43: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 22: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 43: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonBasedDelay.c", line 43: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 23: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 44: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonBasedDelay.c", line 44: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 23: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 44: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonBasedDelay.c", line 44: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 23: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 44: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonBasedDelay.c", line 44: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 23: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 44: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonBasedDelay.c", line 44: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 23: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 44: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonBasedDelay.c", line 44: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 23: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 44: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonBasedDelay.c", line 44: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'MSP430G2553TimersAndInterrupts.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'MSP430G2553TimersAndInterrupts.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 23: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 44: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonBasedDelay.c", line 44: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 23: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 44: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonBasedDelay.c", line 44: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 23: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 44: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonBasedDelay.c", line 44: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project MSP430G2553TimersAndInterrupts ****
+
+"C:\\ti\\Code Composer\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../ButtonBasedDelay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" --include_path="G:/School/Senior1/Embedded/GitHub/lab-3-interrupts-and-timers-fraserj0/MSP430G2553/MSP430G2553TimersAndInterrupts/MSP430G2553TimersAndInterrupts" --include_path="C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="ButtonBasedDelay.d"  "../ButtonBasedDelay.c"
+"../ButtonBasedDelay.c", line 23: warning #994-D: missing return statement at end of non-void function "ButtonBasedDelay"
+"../ButtonBasedDelay.c", line 44: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../ButtonBasedDelay.c", line 44: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../ButtonBasedDelay.c'
+' '
+'Building target: MSP430G2553TimersAndInterrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP430G2553TimersAndInterrupts.map" --heap_size=80 --stack_size=80 -i"C:/ti/Code Composer/ccsv7/ccs_base/msp430/include" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/Code Composer/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP430G2553TimersAndInterrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2553TimersAndInterrupts.out" "./ButtonBasedDelay.obj" "./ButtonInterrupt.obj" "./TimerABlink.obj" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: MSP430G2553TimersAndInterrupts.out'
+' '
+
+**** Build Finished ****

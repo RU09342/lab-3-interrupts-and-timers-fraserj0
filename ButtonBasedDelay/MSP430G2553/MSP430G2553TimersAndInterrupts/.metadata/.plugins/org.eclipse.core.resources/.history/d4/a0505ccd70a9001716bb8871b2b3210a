@@ -1,0 +1,51 @@
+#include <msp430.h>
+
+/**
+ * TimerABlink
+ */
+int ButtonBasedDelay(void)
+{
+        WDTCTL = WDTPW + WDTHOLD; // Stop watchdog timer
+        P1OUT &= 0x00;
+        P1DIR &= 0x00;
+        P1DIR |= 0x41; // Set P1.0 to output direction
+        P1REN |= 0x08;
+        P1OUT |= 0x08;
+        CCTL0  = CCIE;   // CCR1 interrupt enabled
+        TACCR0 = TA0R;
+        P1IE   = 0x08; // P1.3 interrupt enabled, interrupt is enabled here, as well as interrupt clear
+        P1IES |= 0x08;
+        P1IFG &= ~BIT3; // P1.3 IFG cleared
+
+      __bis_SR_register(LPM0_bits + GIE);       // Enter LPM0 w/ interrupt
+}
+
+#pragma vector=PORT1_VECTOR             //This is what happens when you enter the interrupt
+__interrupt void Port_1(void)
+{
+    unsigned int i;
+        unsigned int recTime = 0;
+        if(P1IES & 0x08){
+            P1OUT |= BIT0 ;                         // Toggle P1.6 and P1.0
+            TACTL = TASSEL_2 + MC_2 + ID_3;
+            P1IES &= 0xF7;
+        }
+        if(P1IN & 0x08){
+            recTime = TA0R;
+            TACCR0 = recTime;
+            P1OUT &= ~BIT0;
+            P1IES |= 0x08;
+        }
+
+       for(i=0;i<50000;i++);                //Delay
+       P1IFG &= ~BIT3;                     // P1.3 IFG cleared
+}
+
+
+#pragma vector=TIMER0_A0_VECTOR
+__interrupt void Timer_A(void)
+{
+    P1OUT  ^= 0x08;                          // Toggle P1.0
+
+}
+
